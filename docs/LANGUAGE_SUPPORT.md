@@ -13,7 +13,7 @@ In order to enable ASGI support, you need to enable the `interface`, `python` an
 
 ```toml
 [dependencies]
-vetis = { version = "0.1.0", features = ["interface", "python", "asgi"] }
+xws = { version = "0.1.0", features = ["interface", "python", "asgi"] }
 ```
 
 ### WSGI
@@ -24,7 +24,7 @@ In order to enable WSGI support, you need to enable the `interface`, `python` an
 
 ```toml
 [dependencies]
-vetis = { version = "0.1.0", features = ["interface", "python", "wsgi"] }
+xws = { version = "0.1.0", features = ["interface", "python", "wsgi"] }
 ```
 
 #### Notes
